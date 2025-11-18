@@ -4,8 +4,9 @@
 \usepackage{graphicx,url}
 \usepackage[utf8]{inputenc}
 \usepackage[brazil]{babel}
-\usepackage[latin1]{inputenc} 
+\usepackage[latin1]{inputenc}
 \usepackage{amssymb}
+\usepackage{csquotes}
 
 
 \sloppy
@@ -15,12 +16,12 @@
 \author{
 \parbox{\textwidth}{
 \centering
-Maria Eduarda de Pinho Braga\inst{1}, 
-Eduardo Antunes dos Santos Vieira\inst{1}, 
-Amanda Caroline Melo Assunção\inst{1}, 
+Maria Eduarda de Pinho Braga\inst{1},
+Eduardo Antunes dos Santos Vieira\inst{1},
+Amanda Caroline Melo Assunção\inst{1},
 Caio Menezes Oliveira\inst{1},\\
-Ingrid Luíza Rodrigues Silva\inst{1}, 
-Manoel Augusto Alves da Costa\inst{1}, 
+Ingrid Luíza Rodrigues Silva\inst{1},
+Manoel Augusto Alves da Costa\inst{1},
 Gabriel Marcus de Oliveira Felix\inst{1}
 }
 }
@@ -50,8 +51,8 @@ gabriel.marcus@ufv.br
   Portuguese (``resumo''). In both cases, abstracts should not have more than
   10 lines and must be in the first page of the paper.
 \end{abstract}
-     
-\begin{resumo} 
+
+\begin{resumo}
   Este meta-artigo descreve o estilo a ser usado na confecção de artigos e
   resumos de artigos para publicação nos anais das conferências organizadas
   pela SBC. É solicitada a escrita de resumo e abstract apenas para os artigos
@@ -76,18 +77,50 @@ Conferences that publish just abstracts ask for \textbf{one}-page texts.
 
 \section{Trabalhos relacionados} \label{sec:firstpage}
 
+O ensino do pensamento computacional se mostra um desafio nas escolas
+brasileiras <citação>. Diante disso, a literatura reconhece a eficácia dos
+\textit{Serious Games (SG)} e da Aprendizagem Baseada em Jogos (\textit{Game
+based learning - GBL}) como estratégias ativas para aumentar o engajamento, a
+motivação e a compreensão, convertendo conceitos abstratos em experiências
+práticas \cite{Luccas2025SeriousGames}. O desenvolvimento de um sistema web para
+ensinar digitação a crianças do 4º ano, como o Digitovisky, é precedido por
+trabalhos que também exploram o ensino do pensamento computacional para a
+Educação Básica.
+
+Na área de Informática na Educação, pesquisadores têm explorado bastante o uso
+de SGs e GBL, aplicando essas ferramentas em vários conceitos e para públicos
+bem diferentes. Por exemplo, quando olhamos para o design e a avaliação de
+jogos, o trabalho \cite{Araujo2025CodeBo} apresenta um rigoroso processo de
+desenvolvimento e avaliação de um puzzle game. Este estudo foca em conceitos de
+Ensino Superior, mas estabelece uma base metodológica importante para a
+avaliação de engajamento e aprendizado.
+
+A fronteira de atuação dos jogos educacionais se estende ao uso de tecnologias
+imersivas, como detalhado no \cite{Lima2022AmongNET}. Este estudo destaca a
+adaptabilidade das ferramentas lúdicas ao contexto de ensino remoto e o
+potencial de engajamento da Realidade Aumentada.
+
+Em \cite{Dutra2022JogoDI}, os autores apresentam o jogo digital educacional
+\enquote{Pensar e Lavar}, cujo objetivo é ensinar crianças sobre a atividade
+coditiana de lavagem de roupas, com foco especial em crianças portadoras de
+deficiências intelectuais. O desenvolvimento do \textit{software} foi validado
+por especialistas em tais deficiências, e o produto final apresenta uma série de
+recursos de acessibilidade muito eficazes na aplicação do jogo no contexto ao
+qual se destina. No entanto, não foi validado com seu público-alvo propriamente
+dito, uma limitação que o presente trabalho não exibe.
+
 \begin{table}[h!]
 \centering
 \begin{tabular}{|p{2.2cm}|c|c|c|c|c|}
 \hline
-\textbf{Referência} & \begin{tabular}[c]{@{}c@{}}\textbf{Público-Alvo}\\ \textbf{Foco 4º EF}\end{tabular} & 
-\begin{tabular}[c]{@{}c@{}}\textbf{Digital}\end{tabular} & 
-\begin{tabular}[c]{@{}c@{}}\textbf{Foco na}\\ \textbf{BNCC}\\ \textbf{(EB)}\end{tabular} & 
-\begin{tabular}[c]{@{}c@{}}\textbf{Método de}\\ \textbf{Avaliação}\end{tabular} & 
+\textbf{Referência} & \begin{tabular}[c]{@{}c@{}}\textbf{Público-Alvo}\\ \textbf{Foco 4º EF}\end{tabular} &
+\begin{tabular}[c]{@{}c@{}}\textbf{Digital}\end{tabular} &
+\begin{tabular}[c]{@{}c@{}}\textbf{Foco na}\\ \textbf{BNCC}\\ \textbf{(EB)}\end{tabular} &
+\begin{tabular}[c]{@{}c@{}}\textbf{Método de}\\ \textbf{Avaliação}\end{tabular} &
 \begin{tabular}[c]{@{}c@{}}\textbf{Conteúdo}\\ \textbf{Avançado}\end{tabular} \\
 \hline
 \hline
-\textbf{Digitovisky} & \textbf{$\checkmark$} & \textbf{$\checkmark$} & \textbf{$\checkmark$} & \textbf{MEEGA+ (Adaptado)} & \textbf{×} \\
+\textbf{Digitóvisky} & \textbf{$\checkmark$} & \textbf{$\checkmark$} & \textbf{$\checkmark$} & \textbf{MEEGA+ (Adaptado)} & \textbf{×} \\
 \hline
 {[}Rosa et al.{]} & $\checkmark$ & × & $\checkmark$ & Testes (Pré/Pós) & × \\
 \hline
@@ -176,7 +209,7 @@ excepting for the papers that will be electronically available (on CD-ROMs,
 internet, etc.). The image resolution on paper should be about 600 dpi for
 black-and-white images, and 150-300 dpi for grayscale images.  Do not include
 images with excessive resolution, as they may take hours to print, without any
-visible difference in the result. 
+visible difference in the result.
 
 \section{References}
 
@@ -192,3 +225,6 @@ indented, while the subsequent should be indented by 0.5 cm.
 \bibliography{sbc-template}
 
 \end{document}
+% Estou colocando a linha abaixo como se ela fosse magicamente garantir que o
+% texto se limitasse a 80 colunas mesmo para quem não usa o vim
+% vim:set textwidth=80:
